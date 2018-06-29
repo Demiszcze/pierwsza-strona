@@ -38,3 +38,67 @@ nav ul li a:hover {
     color: #fff;
     transition-duration: 2s;
 }
+nav ul ul {
+    background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9);
+    text-align: left;
+    width: 100%;
+    border: 1px solid #e00986;
+}
+nav ul ul li {
+    display: block;
+}
+nav ul ul li a {
+    padding: 0 15px;
+}
+nav ul li:hover >ul {
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+.hero-section {
+    background-image: url(https://images.unsplash.com/photo-1519340333755-56e9c1d04579?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2b4996a5b571f29412e43dd3361d1acc&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.slogan {
+    width: 80%;
+    background: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.slogan h2 {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+}
+.slogan h2 span {
+    color: #e00986;
+}
+.yellow-text {
+    font-size: 40px;
+    color: #fbb619;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.about-section {
+    width: 100%;
+    background-color: #f29cd9;
+}
+.about-section h2 {
+    margin: 0;
+    padding: 20px;
+    font-size: 30;
+}
+.about-section img {
+    margin: 10px auto 30px;
+    display: block;
+}
