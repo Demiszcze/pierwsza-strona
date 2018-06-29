@@ -16,3 +16,25 @@ margin: 0;
 padding-left: 15px;
 float: left;
 line-height: 80px;}
+nav ul {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    position: relative;
+    width: 150;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #e00986;
+    padding: 0 10px;
+    display: block;
+}
+nav ul li a:hover {
+    color: #fff;
+    transition-duration: 2s;
+}
