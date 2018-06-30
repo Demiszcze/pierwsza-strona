@@ -1,6 +1,5 @@
 $('.slick-slider').slick({
     dots: true,
-    arrows: true,
     infinite: false,
     speed: 300,
     slidesToShow: 4,

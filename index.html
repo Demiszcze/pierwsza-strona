@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="src/demia.css">
+    <script src="src/demia.js"></script>
 </head>
 <body>
     <header>
@@ -80,6 +81,19 @@
                         <p><span>upieczonych</span></p>
                         </div>
                         </section>
+                        <section class="contact-section container">
+                        <form action="form.php" method="POST"> 
+                                <label for="name">Imię</label> 
+                                <input type="text" name="name" id="name" required/> 
+                                <label for="email">E-mail</label> 
+                                <input type="email" name="email" id="email" required/> 
+                                <label for="message">Wiadomość</label> 
+                                <textarea name="message" id="message" rows="3" required/>
+                            </textarea> 
+                            <input type="submit" name="submit" value="Wyślij"> 
+                            <input type="reset" name="submit" value="Usuń dane"> 
+                        </form>
+                    </section>
                         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
                         <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
                         <section class="slider-section">
@@ -91,7 +105,8 @@
                                         <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9129298844672a69164d36cc39f95e55&auto=format&fit=crop&w=500&q=60" alt="muffins" title="ciasteczka">
                                 </div>
                         </section>
-                    </body>
                         <footer>
                             <p>&#169; Strona stworzona przez <a href="http://bedeprogramistka.pl" target="_blank">Diana Serafin</a></p>
                             </footer>
+                            <script src="src/demia.js"></script>
+                        </body>
