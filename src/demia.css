@@ -39,7 +39,7 @@ nav ul li a:hover {
     transition-duration: 2s;
 }
 nav ul ul {
-    background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9);
+    background-image: radial-gradient(circle, #bbd672, #54d1ed, #7ac5ff, #b2fed2, #f29cd9);
     text-align: left;
     width: 100%;
     border: 1px solid #e00986;
